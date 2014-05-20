@@ -1,4 +1,4 @@
-title:            Site Title
+title:            Renaud Gervais
 description:      Describe your website.
 # Your site's domain goes here. Leave localhost server or blank when working locally.
 url:              http://localhost:4000
@@ -6,25 +6,25 @@ disqus_shortname:
 
 # Owner/author information
 owner:
-  name:           Your Name
-  avatar:         bio-photo.jpg
+  name:           Renaud Gervais
+  avatar:         DicesSmallSquare.jpg
   bio:            "Describe your self."
-  email:          your@email.com
+  email:          renaud.gervais@gmail.com
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
-  twitter:
+  twitter:			RenaudGervais
   facebook:
-  github:
+  github:			RenaudGervais
   stackoverflow:
-  linkedin:
+  linkedin:			renaud-gervais/27/7b6/338
   instagram:
-  lastfm:
+  lastfm:			NonRealResult
   tumblr:
   pinterest:
   foursquare:
   steam:
   dribbble:
   # For Google Authorship https://plus.google.com/authorship
-  google_plus:
+  google_plus:		RenaudGervais-1
 
 # Analytics and webmaster tools stuff goes here
 google_analytics:

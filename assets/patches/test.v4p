@@ -1,0 +1,159 @@
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
+  <PATCH>
+  <BOUNDS type="Window" width="7005" height="7500">
+  </BOUNDS>
+  <NODE id="1" nodename="Renderer (Canvas VVVVjs)" systemname="Renderer (Canvas VVVVjs)" componentmode="Hidden">
+  <BOUNDS type="Node" left="2445" top="5550" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Layers" visible="1">
+  </PIN>
+  <PIN pinname="Clear" visible="1">
+  </PIN>
+  <PIN pinname="Background Color" visible="1">
+  </PIN>
+  <PIN pinname="Backbuffer Width" visible="1">
+  </PIN>
+  <PIN pinname="Backbuffer Height" visible="1">
+  </PIN>
+  <PIN pinname="View" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|#header_renderer|">
+  </PIN>
+  </NODE>
+  <NODE id="2" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
+  <BOUNDS type="Box" left="3270" top="4095" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Y Input Value" visible="1" values="|256|">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|Renderer Height|">
+  </PIN>
+  </NODE>
+  <NODE id="3" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
+  <BOUNDS type="Box" left="3075" top="3450" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Y Input Value" visible="1" values="|1024|">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|Renderer Width|">
+  </PIN>
+  </NODE>
+  <NODE id="4" nodename="Rectangle (Canvas VVVVjs)" systemname="Rectangle (Canvas VVVVjs)" componentmode="Hidden">
+  <BOUNDS type="Node" left="2505" top="2910" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Render State" visible="1">
+  </PIN>
+  <PIN pinname="Transform" visible="1">
+  </PIN>
+  <PIN pinname="Clipping Layer" visible="1">
+  </PIN>
+  <PIN pinname="Width" visible="1">
+  </PIN>
+  <PIN pinname="Height" visible="1">
+  </PIN>
+  <PIN pinname="Corner Radius" visible="1" values="|.3|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="5" nodename="Scale (Transform)" systemname="Scale (Transform)" componentmode="Hidden">
+  <BOUNDS type="Node" left="4425" top="5100" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Transform In" visible="1">
+  </PIN>
+  <PIN pinname="X" visible="1">
+  </PIN>
+  <PIN pinname="Y" visible="1">
+  </PIN>
+  <PIN pinname="Z" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="6" nodename="Divide (Value)" systemname="Divide (Value)" componentmode="Hidden">
+  <BOUNDS type="Node" left="4620" top="4440" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input" visible="1">
+  </PIN>
+  <PIN pinname="Input 2" visible="1">
+  </PIN>
+  <PIN pinname="Inputs Count" visible="0" values="|2|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="7" nodename="Mouse (System Window)" systemname="Mouse (System Window)" componentmode="Hidden">
+  <BOUNDS type="Node" left="2985" top="225" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="8" nodename="Translate (Transform)" systemname="Translate (Transform)" componentmode="Hidden">
+  <BOUNDS type="Node" left="2730" top="2475" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Transform In" visible="1">
+  </PIN>
+  <PIN pinname="X" visible="1">
+  </PIN>
+  <PIN pinname="Y" visible="1">
+  </PIN>
+  <PIN pinname="Z" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="12" nodename="Divide (Value)" systemname="Divide (Value)" componentmode="Hidden">
+  <BOUNDS type="Node" left="5625" top="3840" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input" visible="1">
+  </PIN>
+  <PIN pinname="Input 2" visible="1">
+  </PIN>
+  <PIN pinname="Inputs Count" visible="0" values="|2|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="13" nodename="Multiply (Value)" systemname="Multiply (Value)" componentmode="Hidden">
+  <BOUNDS type="Node" left="2760" top="1095" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input 1" visible="1">
+  </PIN>
+  <PIN pinname="Input 2" visible="1">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|2|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <LINK srcnodeid="3" srcpinname="Y Output Value" dstnodeid="1" dstpinname="Backbuffer Width">
+  </LINK>
+  <LINK srcnodeid="2" srcpinname="Y Output Value" dstnodeid="1" dstpinname="Backbuffer Height">
+  </LINK>
+  <LINK srcnodeid="4" srcpinname="Layer" dstnodeid="1" dstpinname="Layers">
+  </LINK>
+  <LINK srcnodeid="2" srcpinname="Y Output Value" dstnodeid="6" dstpinname="Input">
+  </LINK>
+  <LINK srcnodeid="3" srcpinname="Y Output Value" dstnodeid="6" dstpinname="Input 2">
+  </LINK>
+  <LINK srcnodeid="6" srcpinname="Output" dstnodeid="5" dstpinname="X">
+  </LINK>
+  <LINK srcnodeid="5" srcpinname="Transform Out" dstnodeid="1" dstpinname="View">
+  </LINK>
+  <LINK srcnodeid="7" srcpinname="Y" dstnodeid="8" dstpinname="Y">
+  </LINK>
+  <LINK srcnodeid="8" srcpinname="Transform Out" dstnodeid="4" dstpinname="Transform">
+  </LINK>
+  <LINK srcnodeid="3" srcpinname="Y Output Value" dstnodeid="12" dstpinname="Input">
+  </LINK>
+  <LINK srcnodeid="2" srcpinname="Y Output Value" dstnodeid="12" dstpinname="Input 2">
+  </LINK>
+  <LINK srcnodeid="7" srcpinname="X" dstnodeid="13" dstpinname="Input 1">
+  </LINK>
+  <LINK srcnodeid="13" srcpinname="Output" dstnodeid="8" dstpinname="X">
+  </LINK>
+  <LINK srcnodeid="12" srcpinname="Output" dstnodeid="13" dstpinname="Input 2">
+  </LINK>
+  </PATCH>

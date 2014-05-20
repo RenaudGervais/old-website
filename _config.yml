@@ -7,8 +7,9 @@ disqus_shortname:
 # Owner/author information
 owner:
   name:           Renaud Gervais
-  avatar:         DicesSmallSquare.jpg
-  bio:            "Describe your self."
+  avatar:         bio-photo.jpg
+  bio:            "Scientist, designer, programmer. I like tinkering with ideas that lie at the boundaries of different fields."
+#  Particularly interested in tangible interfaces, spatial augmented reality, ubiquitous computing and creative coding."
   email:          renaud.gervais@gmail.com
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
   twitter:			RenaudGervais

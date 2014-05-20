@@ -1,0 +1,32 @@
+h1{
+  font-size:14pt;
+}
+
+.background{
+  fill: #e6e6e6; 
+}
+
+.vvvv-node.selected .vvvv-node-background{
+  fill: #9a9a9a;
+}
+
+
+/* Interactive Elements */
+
+.pininputbox{
+  position:absolute;
+  border:0px;
+  font-size:10px;
+  height:2em;
+}
+
+#node_selection{
+  position:absolute;
+  width: 300px;
+}
+
+#node_selection #new_node, #node_selection #node_filter{
+  width:300px;
+  border:1px solid black;
+  margin: 0;
+}

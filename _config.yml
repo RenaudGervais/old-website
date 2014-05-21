@@ -36,12 +36,14 @@ bing_verify:
 # Links to include in top navigation
 # For external links add external: true
 links:
-  - title: About
-    url: /about/
-  - title: Posts
+  - title: Blog
     url: /posts/
+  - title: Projects
+    url: /projects/
   - title: Publications
     url: /publications/
+  - title: About
+    url: /about/
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America/New_York

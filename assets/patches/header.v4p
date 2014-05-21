@@ -1,9 +1,9 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="7005" height="7500">
+  <BOUNDS type="Window" width="7560" height="7500">
   </BOUNDS>
   <NODE id="1" nodename="Renderer (Canvas VVVVjs)" systemname="Renderer (Canvas VVVVjs)" componentmode="Hidden">
-  <BOUNDS type="Node" left="2445" top="5550" width="100" height="100">
+  <BOUNDS type="Node" left="2520" top="5055" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Layers" visible="1">
   </PIN>
@@ -11,9 +11,9 @@
   </PIN>
   <PIN pinname="Background Color" visible="1">
   </PIN>
-  <PIN pinname="Backbuffer Width" visible="1">
+  <PIN pinname="Backbuffer Width" visible="1" values="|0|">
   </PIN>
-  <PIN pinname="Backbuffer Height" visible="1">
+  <PIN pinname="Backbuffer Height" visible="1" values="|0|">
   </PIN>
   <PIN pinname="View" visible="1">
   </PIN>
@@ -128,10 +128,6 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
-  <LINK srcnodeid="3" srcpinname="Y Output Value" dstnodeid="1" dstpinname="Backbuffer Width">
-  </LINK>
-  <LINK srcnodeid="2" srcpinname="Y Output Value" dstnodeid="1" dstpinname="Backbuffer Height">
-  </LINK>
   <LINK srcnodeid="4" srcpinname="Layer" dstnodeid="1" dstpinname="Layers">
   </LINK>
   <LINK srcnodeid="2" srcpinname="Y Output Value" dstnodeid="6" dstpinname="Input">
@@ -139,8 +135,6 @@
   <LINK srcnodeid="3" srcpinname="Y Output Value" dstnodeid="6" dstpinname="Input 2">
   </LINK>
   <LINK srcnodeid="6" srcpinname="Output" dstnodeid="5" dstpinname="X">
-  </LINK>
-  <LINK srcnodeid="5" srcpinname="Transform Out" dstnodeid="1" dstpinname="View">
   </LINK>
   <LINK srcnodeid="7" srcpinname="Y" dstnodeid="8" dstpinname="Y">
   </LINK>
@@ -155,5 +149,7 @@
   <LINK srcnodeid="13" srcpinname="Output" dstnodeid="8" dstpinname="X">
   </LINK>
   <LINK srcnodeid="12" srcpinname="Output" dstnodeid="13" dstpinname="Input 2">
+  </LINK>
+  <LINK srcnodeid="5" srcpinname="Transform Out" dstnodeid="1" dstpinname="View">
   </LINK>
   </PATCH>

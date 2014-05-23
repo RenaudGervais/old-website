@@ -36,12 +36,12 @@ bing_verify:
 # Links to include in top navigation
 # For external links add external: true
 links:
-  - title: Blog
-    url: /posts/
-  - title: Projects
-    url: /projects/
-  - title: Publications
-    url: /publications/
+  # - title: Blog
+  #   url: /posts/
+  # - title: Projects
+  #   url: /projects/
+  # - title: Publications
+  #   url: /publications/
   - title: About
     url: /about/
 

@@ -4,6 +4,7 @@ description: "A responsive Jekyll theme with editorial tendencies by designer Mi
 tags: [Jekyll, theme, responsive, blog, template]
 image:
   feature: BordeauxBridge.jpg
+vvvv: true
 ---
 
 # Welcome!

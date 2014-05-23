@@ -1,30 +1,34 @@
 ---
 layout: page
 permalink: /about/
-title: About the Theme
-tagline: Minimal Mistakes, a Jekyll Theme
-tags: [about, Jekyll, theme, responsive]
-modified: 9-9-2013
-comments: true
+title: About me
+tags: [about, Renaud]
 image:
-  feature: texture-feature-02.jpg
-  credit: Texture Lovers
-  creditlink: http://texturelovers.com
+  feature: BordeauxBridge.jpg
+  credit: 
+  creditlink: 
+vvvv: true
 ---
 
-Jekyll is pretty rad and figured releasing a cleaned up version of [my site](http://mademistakes.com)[^1] as a theme for others to hack and build on would be fun. So here be that theme --- I call it **Minimal Mistakes**, a responsive Jekyll theme with large featured images and solid typography. 
+Hello! I am currently a PhD student in Inria Bordeaux, France where I study under the supervision of [Martin Hachet](http://www.labri.fr/perso/hachet/) and I am part of the Inria [Potioc](http://team.inria.fr/potioc/) research team.
 
-## Minimal Mistakes is all about:
+## Interests
 
-* Responsive templates. Looking good on mobile, tablet, and desktop.
-* Gracefully degrading in older browsers. Compatible with Internet Explorer 8+ and all modern browsers. 
-* Minimal embellishments --- content first.
-* Large feature images for posts and pages.
-* Author sidebar to pimp your bio, photo[^2], and social media links.
-* Simple and clear permalink structure *(ie: domain.com/category/post-title)*
+* Tangible and Organic User Interfaces
+* Spatial Augmented Reality
+* Ubiquitous Computing
+* Interactive Art
+* Creative Coding
 
-<a markdown="0" href="{{ site.url }}/theme-setup" class="btn">Install Minimal Mistakes Theme</a>
+## Creative Coding
+I am a big fan of the multipurpose creative coding toolkit [VVVV](http://www.vvvv.org). It allows a dynamic and playful experience to prototype visualizations or interactive systems.
 
-[^1]: Since open sourcing this theme I have released a couple other Jekyll themes. My website [Made Mistakes](http://mademistakes.com) is currently using a modified version of my [So Simple Theme](http://mmistakes.github.io/so-simple-theme/).
+There is also an open source project called [VVVV.js](http://wwww.vvvvjs.com) that now enables embedding vvvv in your browser.[^1]
 
-[^2]: Fancy avatars provided by [Brandon Mathis](http://brandonmathis.com/projects/fancy-avatars/demo/) under a [Creative Commons Attribution 3.0 License](http://creativecommons.org/licenses/by/3.0/).
+<script language="VVVV" src="../assets/patches/header.v4p"></script>
+<div id="header_renderer"></div>
+
+
+<a markdown="0" href="#edit/../assets/patches/header.v4p" class="btn">Play with this patch!</a>
+
+[^1]: This patch is inspired by a patch you can find [here](http://lab.vvvvjs.com/show.php?id=7c647a36791c1ef9a5f8bde2f876b2a2be1a2200)

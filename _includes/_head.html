@@ -92,3 +92,18 @@
 <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ site.url }}/images/apple-touch-icon-114x114-precomposed.png">
 <!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
 <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.url }}/images/apple-touch-icon-144x144-precomposed.png">
+
+
+<!-- vvvv.js initialization -->
+{% if page.vvvv == true %}
+<script language="JavaScript" src="{{ site.url }}/assets/js/vvvv_js/lib/jquery/jquery-1.8.2.min.js"></script>
+<script language="JavaScript" src="{{ site.url }}/assets/js/vvvv_js/vvvv.js"></script>
+<link rel="stylesheet" href="{{ site.url }}/assets/js/vvvv_js/vvvviewer/vvvv.css">
+<script language="JavaScript">
+    $(document).ready(function() {
+    VVVV.init("{{ site.url }}/assets/js/vvvv_js/", 'full', function() {
+      console.log('VVVV.js initialized'); 
+    });
+    });
+</script>
+{% endif %}

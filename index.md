@@ -3,7 +3,8 @@ layout: page
 description: "A responsive Jekyll theme with editorial tendencies by designer Michael Rose."
 tags: [Jekyll, theme, responsive, blog, template]
 image:
-  feature: BordeauxBridge.jpg
+  feature: ./assets/patches/teegi_header.v4p
+  renderer: renderer
 vvvv: true
 ---
 

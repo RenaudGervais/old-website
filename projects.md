@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post-index
 permalink: /projects/
 title: "Projects"
 modified: 2014-05-21 17:36

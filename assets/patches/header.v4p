@@ -378,12 +378,6 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
-  <NODE id="35" nodename="Mouse (System Window)" systemname="Mouse (System Window)" componentmode="Hidden">
-  <BOUNDS type="Node" left="2370" top="645" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
   <NODE id="36" nodename="TogEdge (Animation)" systemname="TogEdge (Animation)" componentmode="Hidden">
   <BOUNDS type="Node" left="3450" top="1455" width="100" height="100">
   </BOUNDS>
@@ -427,9 +421,9 @@
   </PIN>
   </NODE>
   <NODE id="40" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
-  <BOUNDS type="Box" left="7725" top="6930" width="100" height="100">
+  <BOUNDS type="Box" left="7710" top="6930" width="100" height="100">
   </BOUNDS>
-  <PIN pinname="Y Input Value" visible="1" values="|5|">
+  <PIN pinname="Y Input Value" visible="1" values="|2|">
   </PIN>
   <PIN pinname="Rows" visible="0" values="|1|">
   </PIN>
@@ -513,7 +507,7 @@
   <NODE id="46" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
   <BOUNDS type="Box" left="4995" top="6825" width="100" height="100">
   </BOUNDS>
-  <PIN pinname="Y Input Value" visible="1" values="|.07|">
+  <PIN pinname="Y Input Value" visible="1" values="|.2|">
   </PIN>
   <PIN pinname="Rows" visible="0" values="|1|">
   </PIN>
@@ -539,6 +533,12 @@
   </PIN>
   <PIN pinname="FilterTime" visible="1">
   </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="50" nodename="Mouse (System Global)" systemname="Mouse (System Global)" componentmode="Hidden">
+  <BOUNDS type="Node" left="1380" top="465" width="100" height="100">
+  </BOUNDS>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
@@ -612,13 +612,7 @@
   </LINK>
   <LINK srcnodeid="4" srcpinname="Transform Out" dstnodeid="23" dstpinname="Transform">
   </LINK>
-  <LINK srcnodeid="35" srcpinname="Left Button" dstnodeid="36" dstpinname="Input">
-  </LINK>
   <LINK srcnodeid="36" srcpinname="Up Edge" dstnodeid="11" dstpinname="Enabled">
-  </LINK>
-  <LINK srcnodeid="35" srcpinname="X" dstnodeid="38" dstpinname="Go To Position">
-  </LINK>
-  <LINK srcnodeid="35" srcpinname="Y" dstnodeid="39" dstpinname="Go To Position">
   </LINK>
   <LINK srcnodeid="39" srcpinname="Position Out" dstnodeid="37" dstpinname="Y">
   </LINK>
@@ -655,5 +649,11 @@
   <LINK srcnodeid="11" srcpinname="Output" dstnodeid="49" dstpinname="Go To Position">
   </LINK>
   <LINK srcnodeid="49" srcpinname="Position Out" dstnodeid="47" dstpinname="Input 1">
+  </LINK>
+  <LINK srcnodeid="50" srcpinname="X" dstnodeid="38" dstpinname="Go To Position">
+  </LINK>
+  <LINK srcnodeid="50" srcpinname="Y" dstnodeid="39" dstpinname="Go To Position">
+  </LINK>
+  <LINK srcnodeid="50" srcpinname="Left Button" dstnodeid="36" dstpinname="Input">
   </LINK>
   </PATCH>

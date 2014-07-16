@@ -25,10 +25,10 @@ I am a big fan of the multipurpose creative coding toolkit [VVVV](http://www.vvv
 
 There is also an open source project called [VVVV.js](http://wwww.vvvvjs.com) that now enables embedding vvvv in your browser.[^1]
 
-<script language="VVVV" src="../assets/patches/header.v4p"></script>
+<script language="VVVV" src="../assets/patches/dynamic_circle.v4p"></script>
 <div id="header_renderer"></div>
 
 
-<a markdown="0" href="#edit/../assets/patches/header.v4p" class="btn">Play with this patch!</a>
+<a markdown="0" href="#edit/../assets/patches/dynamic_circle.v4p" class="btn">Play with this patch!</a>
 
 [^1]: This patch is inspired by a patch you can find [here](http://lab.vvvvjs.com/show.php?id=7c647a36791c1ef9a5f8bde2f876b2a2be1a2200)

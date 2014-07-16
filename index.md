@@ -3,13 +3,14 @@ layout: page
 description: "A responsive Jekyll theme with editorial tendencies by designer Michael Rose."
 tags: [Jekyll, theme, responsive, blog, template]
 image:
-  feature: ./assets/patches/teegi_header.v4p
-  renderer: renderer
-vvvv: true
+  feature: CCoO_header.jpg
+  credit: Character is based on a Trexi Figure by Play Imaginative
+  creditlink: http://trexi.com.sg/
+vvvv: false
 ---
 
 # Welcome!
-I am **Renaud Gervais**, a PhD student in Human-Computer Interaction at Inria Bordeaux, France. My main focus is making technology blend in with our daily lives in a smooth and coherent experience with a special emphasis in physicality.
+I am **Renaud Gervais**, a PhD student in Human-Computer Interaction at Inria Bordeaux, France. My main focus is making technology blend in with our daily lives in a smooth and coherent experience with a special emphasis on physicality aspects.
 
 To achieve this vision, I am using tools from **tangible interfaces**, **spatial augmented reality**, **ubiquitous computing** and **creative coding**.
 

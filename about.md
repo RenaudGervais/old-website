@@ -4,13 +4,13 @@ permalink: /about/
 title: About me
 tags: [about, Renaud]
 image:
-  feature: BordeauxBridge.jpg
-  credit: 
-  creditlink: 
+  feature: CCoO_header.jpg
+  credit: Character is based on a Trexi Figure by Play Imaginative
+  creditlink: http://trexi.com.sg/
 vvvv: true
 ---
 
-Hello! I am currently a PhD student in Inria Bordeaux, France where I study under the supervision of [Martin Hachet](http://www.labri.fr/perso/hachet/) and I am part of the Inria [Potioc](http://team.inria.fr/potioc/) research team.
+Hello! I am currently a PhD student at Inria Bordeaux, France where I study under the supervision of [Martin Hachet](http://www.labri.fr/perso/hachet/) and I am part of the Inria [Potioc](http://team.inria.fr/potioc/) research team.
 
 ## Interests
 

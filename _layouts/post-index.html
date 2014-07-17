@@ -47,16 +47,18 @@
       {% endif %}
     {% endunless %}
     <article>
-      {% if post.image.teaser %}
-      <div class="image-wrap">
-      <img src="{{ site.url }}/images/{{ post.image.teaser }}">
-      </div>
-      {% endif %}
       {% if post.link %}
         <h2 class="link-post"><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <a href="{{ post.link }}" target="_blank" title="{{ post.title }}"><i class="fa fa-link"></i></h2>
       {% else %}
         <h2><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
         <p>{% if post.description %}{{ post.description }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 120 }}{% endif %}</p>
+      {% endif %}
+      {% if post.image.teaser %}
+      <div class="image-wrap">
+        <a href="{{ site.url }}{{ post.url }}">
+          <img src="{{ site.url }}/images/{{ post.image.teaser }}">
+        </a>
+      </div>
       {% endif %}
     </article>
   {% endfor %}

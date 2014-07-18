@@ -1,50 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>http://localhost:4000</loc>
+        <loc>http://renaudgervais.github.io</loc>
     </url>
     
     
     <url>
-        <loc>http://localhost:4000/404.html</loc>
+        <loc>http://renaudgervais.github.io/404.html</loc>
     </url>
     
     <url>
-        <loc>http://localhost:4000/about/</loc>
+        <loc>http://renaudgervais.github.io/about/</loc>
     </url>
     
     <url>
-        <loc>http://localhost:4000/feed.xml</loc>
+        <loc>http://renaudgervais.github.io/feed.xml</loc>
     </url>
     
     <url>
-        <loc>http://localhost:4000/index.html</loc>
+        <loc>http://renaudgervais.github.io/index.html</loc>
     </url>
     
     <url>
-        <loc>http://localhost:4000/posts/</loc>
+        <loc>http://renaudgervais.github.io/posts/</loc>
     </url>
     
     <url>
-        <loc>http://localhost:4000/projects/</loc>
+        <loc>http://renaudgervais.github.io/projects/</loc>
     </url>
     
     <url>
-        <loc>http://localhost:4000/publications/</loc>
+        <loc>http://renaudgervais.github.io/publications/</loc>
     </url>
     
     <url>
-        <loc>http://localhost:4000/sitemap.xml</loc>
+        <loc>http://renaudgervais.github.io/sitemap.xml</loc>
     </url>
     
     <url>
-        <loc>http://localhost:4000/theme-setup/</loc>
+        <loc>http://renaudgervais.github.io/theme-setup/</loc>
     </url>
     
 
     
     <url>
-        <loc>http://localhost:4000/teegi-tangible-eeg-interface/</loc>
+        <loc>http://renaudgervais.github.io/teegi-tangible-eeg-interface/</loc>
     </url>
     
 </urlset>

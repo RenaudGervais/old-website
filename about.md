@@ -12,6 +12,9 @@ vvvv: true
 
 Hello! I am currently a PhD student at Inria Bordeaux, France where I study under the supervision of [Martin Hachet](http://www.labri.fr/perso/hachet/) and I am part of the Inria [Potioc](http://team.inria.fr/potioc/) research team.
 
+<br>
+Contact: ![Email image]({{ site.url }}/images/email.png)
+
 ## Interests
 
 * Tangible and Organic User Interfaces

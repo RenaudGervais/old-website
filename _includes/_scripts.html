@@ -22,3 +22,16 @@
   {% include _disqus_comments.html %}
 {% endif %}
 
+<!-- vvvv.js initialization -->
+{% if page.vvvv == true %}
+<script language="JavaScript" src="{{ site.url }}/assets/js/vvvv_js/lib/jquery/jquery-1.8.2.min.js"></script>
+<script language="JavaScript" src="{{ site.url }}/assets/js/vvvv_js/vvvv.js"></script>
+<link rel="stylesheet" href="{{ site.url }}/assets/js/vvvv_js/vvvviewer/vvvv.css">
+<script language="JavaScript">
+    $(document).ready(function() {
+    VVVV.init("{{ site.url }}/assets/js/vvvv_js/", 'full', function() {
+      console.log('VVVV.js initialized'); 
+    });
+    });
+</script>
+{% endif %}

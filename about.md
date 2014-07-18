@@ -21,9 +21,9 @@ Hello! I am currently a PhD student at Inria Bordeaux, France where I study unde
 * Creative Coding
 
 ## Creative Coding
-I am a big fan of the multipurpose creative coding toolkit [VVVV](http://www.vvvv.org). It allows a dynamic and playful experience to prototype visualizations or interactive systems.
+I am a big fan of the multipurpose creative coding toolkit [vvvv](http://www.vvvv.org). It allows a dynamic and playful experience to prototype visualizations or interactive systems.
 
-There is also an open source project called [VVVV.js](http://wwww.vvvvjs.com) that now enables embedding vvvv in your browser.[^1]
+There is also an open source project called [vvvv.js](http://wwww.vvvvjs.com) that now enables embedding vvvv in your browser.[^1]
 
 <script language="VVVV" src="../assets/patches/dynamic_circle.v4p"></script>
 <div id="header_renderer"></div>

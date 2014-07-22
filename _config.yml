@@ -76,7 +76,7 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 
 # Jekyll-scholar config
 scholar:
-  style: acm-sigchi-proceedings
+  style: chicago-annotated-bibliography
   locale: en
 
   sort_by: none
@@ -84,7 +84,7 @@ scholar:
 
   source: ./_bibliography
   bibliography: publications.bib
-  bibliography_template: "{{reference}}"
+  bibliography_template: {{reference}}
 
   replace_strings: true
   join_strings:    true

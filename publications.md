@@ -2,12 +2,15 @@
 layout: page
 permalink: /publications/
 title: "Publications"
-modified: 2014-05-21 17:25
+modified: 2014-07-22 17:25
 tags: [publications,scientific,conferences,articles]
 image:
-  feature: BordeauxBridge.jpg
-  credit: 
-  creditlink: 
+  feature: CCoO_header.jpg
+  credit: Character is based on a Trexi Figure by Play Imaginative
+  creditlink: http://trexi.com.sg/
 share: 
 ---
 
+# 2014
+
+{% bibliography -f publications -q @*[year=2014] %}

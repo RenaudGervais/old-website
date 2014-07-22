@@ -40,8 +40,8 @@ links:
   #   url: /posts/
   - title: Projects
     url: /projects/
-  # - title: Publications
-  #   url: /publications/
+  - title: Publications
+    url: /publications/
   - title: About
     url: /about/
 
@@ -50,6 +50,8 @@ timezone:    America/New_York
 future:      true
 highlighter: pygments
 markdown:    kramdown
+
+encoding: utf-8
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink:   /:categories/:title/
@@ -70,3 +72,25 @@ kramdown:
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
+
+
+# Jekyll-scholar config
+scholar:
+  style: acm-sigchi-proceedings
+  locale: en
+
+  sort_by: none
+  order: ascending
+
+  source: ./_bibliography
+  bibliography: publications.bib
+  bibliography_template: "{{reference}}"
+
+  replace_strings: true
+  join_strings:    true
+
+  details_dir:    bibliography
+  details_layout: bibtex.html
+  details_link:   Details
+
+  query: "@*"

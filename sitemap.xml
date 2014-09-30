@@ -1,50 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>http://renaudgervais.github.io</loc>
+        <loc></loc>
     </url>
     
     
     <url>
-        <loc>http://renaudgervais.github.io/404.html</loc>
+        <loc>/404.html</loc>
     </url>
     
     <url>
-        <loc>http://renaudgervais.github.io/about/</loc>
+        <loc>/about/</loc>
     </url>
     
     <url>
-        <loc>http://renaudgervais.github.io/feed.xml</loc>
+        <loc>/feed.xml</loc>
     </url>
     
     <url>
-        <loc>http://renaudgervais.github.io/index.html</loc>
+        <loc>/index.html</loc>
     </url>
     
     <url>
-        <loc>http://renaudgervais.github.io/posts/</loc>
+        <loc>/posts/</loc>
     </url>
     
     <url>
-        <loc>http://renaudgervais.github.io/projects/</loc>
+        <loc>/projects/</loc>
     </url>
     
     <url>
-        <loc>http://renaudgervais.github.io/publications/</loc>
+        <loc>/publications/</loc>
     </url>
     
     <url>
-        <loc>http://renaudgervais.github.io/sitemap.xml</loc>
+        <loc>/sitemap.xml</loc>
     </url>
     
     <url>
-        <loc>http://renaudgervais.github.io/theme-setup/</loc>
+        <loc>/theme-setup/</loc>
     </url>
     
 
     
     <url>
-        <loc>http://renaudgervais.github.io/teegi-tangible-eeg-interface/</loc>
+        <loc>/teegi-tangible-eeg-interface/</loc>
     </url>
     
 </urlset>

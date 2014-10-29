@@ -39,6 +39,8 @@ bing_verify:
 links:
   # - title: Blog
   #   url: /posts/
+  - title: Home
+    url: /
   - title: Projects
     url: /projects/
   - title: Publications

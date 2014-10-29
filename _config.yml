@@ -1,7 +1,8 @@
 title:            Renaud Gervais
 description:      Describe your website.
 # Your site's domain goes here. Leave localhost server or blank when working locally.
-url:              http://renaudgervais.github.io
+url:              
+# url:              http://renaudgervais.github.io
 disqus_shortname:
 
 # Owner/author information
@@ -84,7 +85,7 @@ scholar:
 
   source: ./_bibliography
   bibliography: publications.bib
-  bibliography_template: {{reference}}
+  bibliography_template: bib # References the template ./_layouts/bib.html
 
   replace_strings: true
   join_strings:    true
@@ -92,5 +93,7 @@ scholar:
   details_dir:    bibliography
   details_layout: bibtex.html
   details_link:   Details
+
+  repository: ./papers
 
   query: "@*"

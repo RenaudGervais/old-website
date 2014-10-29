@@ -25,3 +25,8 @@ The main objective with Teegi was to enable novice users to get access to tools 
 We think Teegi could be a tool very well suited to education purposes (*e.g.* scientific museums) or for use in BCI (Brain Computer Interfaces) training.
 
 <iframe src="//player.vimeo.com/video/104486980" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/104486980">Teegi: Tangible EEG Interface (UIST 2014)</a> from <a href="http://vimeo.com/potioc">Potioc</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+### Related publications
+- {% reference Frey2014 %} <a href="/papers/Frey2014.pdf"><img src="/images/pdf.png"></a>
+- [Gizmodo](http://gizmodo.com/7-experimental-interfaces-that-show-the-future-of-ui-de-1642890943): Teegi has been highlighted as an interface that shows the future of UI design
+- [Slides](http://renaudgervais.github.io/UIST2014-teegi-presentation/) of the talk that [Jeremy](http://phd.jfrey.info/) and I gave at UIST 2014

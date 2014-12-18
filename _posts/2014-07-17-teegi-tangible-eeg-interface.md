@@ -28,5 +28,6 @@ We think Teegi could be a tool very well suited to education purposes (*e.g.* sc
 
 ### Related publications
 - {% reference Frey2014 %} <a href="/papers/Frey2014.pdf"><img src="/images/pdf.png"></a>
-- [Gizmodo](http://gizmodo.com/7-experimental-interfaces-that-show-the-future-of-ui-de-1642890943): Teegi has been highlighted as an interface that shows the future of UI design
 - [Slides](http://renaudgervais.github.io/UIST2014-teegi-presentation/) of the talk that [Jeremy](http://phd.jfrey.info/) and I gave at UIST 2014
+- [Gizmodo](http://gizmodo.com/7-experimental-interfaces-that-show-the-future-of-ui-de-1642890943): Teegi has been highlighted as an interface that shows the future of UI design
+- [Motherboard](http://motherboard.vice.com/read/brain-waves-doll): A great summary of the Teegi project

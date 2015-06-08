@@ -4,13 +4,38 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://renaudgervais.github.io/feed.xml" />
 <link rel="alternate" type="text/html" href="http://renaudgervais.github.io" />
-<updated>2014-12-18T08:18:46+00:00</updated>
+<updated>2015-06-08T12:44:25+01:00</updated>
 <id>http://renaudgervais.github.io/</id>
 <author>
   <name>Renaud Gervais</name>
   <uri>http://renaudgervais.github.io/</uri>
   <email>renaud.gervais@gmail.com</email>
 </author>
+
+
+<entry>
+  <title type="html"><![CDATA[CurSAR: Pointing in Spatial Augmented Reality from 2D Pointing Devices]]></title>
+  <link rel="alternate" type="text/html" href="http://renaudgervais.github.io/cursar-pointing-in-spatial-augmented-reality-from-2d-pointing-devices/" />
+  <id>http://renaudgervais.github.io/cursar-pointing-in-spatial-augmented-reality-from-2d-pointing-devices</id>
+  <updated>2015-06-08 12:03:11 +0100T00:00:00-00:00</updated>
+  <published>2015-06-08T00:00:00+01:00</published>
+  
+  <author>
+    <name>Renaud Gervais</name>
+    <uri>http://renaudgervais.github.io</uri>
+    <email>renaud.gervais@gmail.com</email>
+  </author>
+  <content type="html">&lt;p&gt;CurSAR is a project investigating the use of 2D input devices to point at augmented physical objects. The main goal of the study was to compare the performance of a pointing task in a SAR and SCREEN condition. We created an experimental setup that allowed to have the same view of augmented objects either physical (SAR) or virtual (SCREEN).  Participants were 11% slower in the SCREEN condition. However, the transfer function of the mouse to the cursor, even without the physical presence of a screen as a reference system for the cursor, continued to the be effective.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/images/cursar-setup.png&quot;&gt;&lt;img src=&quot;/images/cursar-setup.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;related-publications&quot;&gt;Related publications&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;span id=&quot;Gervais2015&quot;&gt;Gervais, Renaud, Jérémy Frey, and Martin Hachet. “Pointing in Spatial Augmented Reality from 2D Pointing Devices.” In &lt;i&gt;INTERACT&lt;/i&gt;, 8. Bamberg, Germany, 2015. https://hal.archives-ouvertes.fr/hal-01153647.&lt;/span&gt; &lt;a href=&quot;https://hal.archives-ouvertes.fr/hal-01153647/document&quot;&gt;&lt;img src=&quot;/images/pdf.png&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+  &lt;p&gt;&lt;a href=&quot;http://renaudgervais.github.io/cursar-pointing-in-spatial-augmented-reality-from-2d-pointing-devices/&quot;&gt;CurSAR: Pointing in Spatial Augmented Reality from 2D Pointing Devices&lt;/a&gt; was originally published by Renaud Gervais at &lt;a href=&quot;http://renaudgervais.github.io&quot;&gt;Renaud Gervais&lt;/a&gt; on June 08, 2015.&lt;/p&gt;</content>
+</entry>
 
 
 <entry>

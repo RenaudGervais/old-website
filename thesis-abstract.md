@@ -23,13 +23,12 @@ However, making the real and digital cohabit on a physical medium makes it diffi
 The first part of the thesis is focusing on the interaction with physical objects, augmented using SAR. The work includes an evaluation of a pointing technique (CurSAR) and an interaction metaphor for bridging interaction on traditional computer screens and physical augmented objects.
 
 ### CurSAR
-<a href="/images/abstract-cursar.jpg"><img src="/images/abstract-cursar.jpg"/></a>
+[![](/images/cursar-header.jpg)](/images/abstract-cursar.jpg)
 
-CurSAR is a project investigating the use of 2D input devices to point at augmented physical objects. The main goal of the study was to compare the performance of a pointing task in a SAR and SCREEN condition. We created an experimental setup that allowed to have the same view of augmented objects either physical (SAR) or virtual (SCREEN).  Participants were 11% slower in the SCREEN condition. However, the transfer function of the mouse to the cursor, even without the physical presence of a screen as a reference system for the cursor, continued to the be effective.
+[**CurSAR**]({{ site.url }}/cursar-pointing-in-spatial-augmented-reality-from-2d-pointing-devices/) is a project investigating the use of 2D input devices to point at augmented physical objects. The main goal of the study was to compare the performance of a pointing task in a SAR and SCREEN condition. We created an experimental setup that allowed to have the same view of augmented objects either physical (SAR) or virtual (SCREEN).  Participants were 11% slower in the SCREEN condition. However, the transfer function of the mouse to the cursor, even without the physical presence of a screen as a reference system for the cursor, continued to the be effective.
 
 
 ### Tangible Viewports: Bridging Desktop Computers and Physical Augmented Objects
-<!-- <a href="/images/abstract-tports.jpg"><img src="/images/abstract-tports.jpg"/></a> -->
 <iframe width="560" height="315" src="https://www.youtube.com/embed/bYBxpTLDG2c" frameborder="0" allowfullscreen></iframe>
 
 Tangible Viewports is an interaction metaphor developed to integrate physical objects into a desktop computer environment. It consists of an on-screen window that is aware of physical objects placed in front of it. When the screen cursor is about to be occluded by the object from the point of view of the user, the cursor appears on the surface of the physical object. Most activities involving digital creation are still conveyed on desktop or laptop computers (e.g. design, graphics, programming, etc). Enabling seamless interaction between native computer applications such as Photoshop and programming environments and physical objects makes it possible to envision a way to let users and developers create, tweak and interact with augmented objects with traditional tools.
@@ -42,10 +41,9 @@ The proposed system also supports different input modalities depending of its sp
 The body is the most intimate thing we have. Even though we live with it everyday of our life, many of the internal intricacies of our inner states are not explicitly made available to us. In this chapter, we are interested in the use of tangible augmented objects as a way to expose and explore our inner states in a playful way.
 
 ### Teegi: Tangible EEG Interface
-<!-- <a href="/images/abstract-teegi.jpg"><img src="/images/abstract-teegi-crop.jpg" /></a> -->
 <iframe src="//player.vimeo.com/video/104486980" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
-[Teegi]({{ site.url }}/teegi-tangible-eeg-interface/) is a Tangible EEG (ElectroEncephaloGraphy) Interface. It uses a physical puppet on which your brain activity is displayed in real-time using SAR. EEG technologies are still very complex and the technologies required to have access to EEG readings and processing can be a deterrent for novice users that are interested in the brain. By creating a fully tangible installation, users can explore their own brain activity by manipulating dedicated mini-puppets that each corresponds to a high level brain activity (closing eyes, motor movement, relaxation/meditation). Users are free to explore what happens in their EEG readings by moving their limbs or try to changer their inner state and locate the brain regions that are specific to these activities.
+[**Teegi**]({{ site.url }}/teegi-tangible-eeg-interface/) is a Tangible EEG (ElectroEncephaloGraphy) Interface. It uses a physical puppet on which your brain activity is displayed in real-time using SAR. EEG technologies are still very complex and the technologies required to have access to EEG readings and processing can be a deterrent for novice users that are interested in the brain. By creating a fully tangible installation, users can explore their own brain activity by manipulating dedicated mini-puppets that each corresponds to a high level brain activity (closing eyes, motor movement, relaxation/meditation). Users are free to explore what happens in their EEG readings by moving their limbs or try to changer their inner state and locate the brain regions that are specific to these activities.
 
 
 ### TOBE: Tangible Out of Body Experience

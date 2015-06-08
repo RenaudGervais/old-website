@@ -82,8 +82,8 @@ scholar:
   style: chicago-annotated-bibliography
   locale: en
 
-  sort_by: none
-  order: ascending
+  sort_by: year
+  order: reverse
 
   source: ./_bibliography
   bibliography: publications.bib

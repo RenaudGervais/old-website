@@ -11,6 +11,10 @@ image:
 share: 
 ---
 
+## 2015
+
+{% bibliography -f publications -q @*[year=2015] %}
+
 ## 2014
 
 {% bibliography -f publications -q @*[year=2014] %}

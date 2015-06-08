@@ -13,7 +13,7 @@ comments:
 share: 
 ---
 
-CurSAR is a project investigating the use of 2D input devices to point at augmented physical objects. The main goal of the study was to compare the performance of a pointing task in a SAR and SCREEN condition. We created an experimental setup that allowed to have the same view of augmented objects either physical (SAR) or virtual (SCREEN).  Participants were 11% slower in the SCREEN condition. However, the transfer function of the mouse to the cursor, even without the physical presence of a screen as a reference system for the cursor, continued to the be effective.
+CurSAR is a project investigating the use of 2D input devices to point at augmented physical objects. The main goal of the study was to compare the performance of a pointing task in a SAR and SCREEN condition. We created an experimental setup that allowed to have the same view of augmented objects either physical (SAR) or virtual (SCREEN).  Participants were 11% slower in the SAR condition. However, the transfer function of the mouse to the cursor, even without the physical presence of a screen as a reference system for the cursor, continued to the be effective.
 
 [![](/images/cursar-setup.png)](/images/cursar-setup.png)
 

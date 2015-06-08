@@ -4,7 +4,7 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://renaudgervais.github.io/feed.xml" />
 <link rel="alternate" type="text/html" href="http://renaudgervais.github.io" />
-<updated>2015-06-08T12:44:25+01:00</updated>
+<updated>2015-06-08T13:03:53+01:00</updated>
 <id>http://renaudgervais.github.io/</id>
 <author>
   <name>Renaud Gervais</name>
@@ -25,7 +25,7 @@
     <uri>http://renaudgervais.github.io</uri>
     <email>renaud.gervais@gmail.com</email>
   </author>
-  <content type="html">&lt;p&gt;CurSAR is a project investigating the use of 2D input devices to point at augmented physical objects. The main goal of the study was to compare the performance of a pointing task in a SAR and SCREEN condition. We created an experimental setup that allowed to have the same view of augmented objects either physical (SAR) or virtual (SCREEN).  Participants were 11% slower in the SCREEN condition. However, the transfer function of the mouse to the cursor, even without the physical presence of a screen as a reference system for the cursor, continued to the be effective.&lt;/p&gt;
+  <content type="html">&lt;p&gt;CurSAR is a project investigating the use of 2D input devices to point at augmented physical objects. The main goal of the study was to compare the performance of a pointing task in a SAR and SCREEN condition. We created an experimental setup that allowed to have the same view of augmented objects either physical (SAR) or virtual (SCREEN).  Participants were 11% slower in the SAR condition. However, the transfer function of the mouse to the cursor, even without the physical presence of a screen as a reference system for the cursor, continued to the be effective.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;/images/cursar-setup.png&quot;&gt;&lt;img src=&quot;/images/cursar-setup.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 

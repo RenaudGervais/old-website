@@ -3,6 +3,7 @@ layout: page
 permalink: /about/
 title: About me
 tags: [about, Renaud]
+share: false
 image:
   feature: CCoO_header.jpg
   credit: Character is based on a Trexi Figure by Play Imaginative

@@ -4,6 +4,7 @@ permalink: /publications/
 title: "Publications"
 modified: 2014-07-22 17:25
 tags: [publications,scientific,conferences,articles]
+share: false
 image:
   feature: CCoO_header.jpg
   credit: Character is based on a Trexi Figure by Play Imaginative

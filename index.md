@@ -2,6 +2,7 @@
 layout: page
 description: "A responsive Jekyll theme with editorial tendencies by designer Michael Rose."
 tags: [Jekyll, theme, responsive, blog, template]
+share: false
 image:
   feature: CCoO_header.jpg
   credit: Character is based on a Trexi Figure by Play Imaginative

@@ -2,23 +2,9 @@
 
 title:            Renaud Gervais
 locale:           en_US
-url:              http://renaudgervais.github.io
+url:
+# url:              http://renaudgervais.github.io
 
-# Links to include in top navigation
-# For external links add external: true
-links:
-  # - title: Blog
-  #   url: /posts/
-  - title: Home
-    url: /
-  - title: Projects
-    url: /projects/
-  - title: Publications
-    url: /publications/
-  - title: About
-    url: /about/
-
-# https://github.com/mojombo/jekyll/wiki/Permalinks
 
 # Jekyll configuration
 permalink:   /:categories/:title/
@@ -29,7 +15,6 @@ sass:
   style: compressed
 gems:
   - jekyll-sitemap
-  - jekyll-scholar
 
 kramdown:
   auto_ids: true

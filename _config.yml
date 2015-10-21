@@ -1,38 +1,8 @@
+# Site wide configuration
+
 title:            Renaud Gervais
-description:      Describe your website.
-# Your site's domain goes here. Leave localhost server or blank when working locally.
-# url:              
+locale:           en_US
 url:              http://renaudgervais.github.io
-disqus_shortname:
-
-# Owner/author information
-owner:
-  name:           Renaud Gervais
-  avatar:         bio-photo.jpg
-  bio:            "Researcher, designer, programmer. I like tinkering with ideas that lie at the boundaries of different fields."
-#  Particularly interested in tangible interfaces, spatial augmented reality, ubiquitous computing and creative coding."
-  email:          renaud.gervais@gmail.com
-  # Social networking links are used in author-bio sidebar. Update and remove as you like.
-  twitter:			RenaudGervais
-  facebook:
-  github:			RenaudGervais
-  stackoverflow:
-  linkedin:			renaud-gervais/27/7b6/338
-  instagram:
-  lastfm:			NonRealResult
-  tumblr:
-  pinterest:
-  foursquare:
-  steam:
-  dribbble:
-  # For Google Authorship https://plus.google.com/authorship
-  google_plus:		RenaudGervais-1
-
-# Analytics and webmaster tools stuff goes here
-google_analytics:
-google_verify:
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
 
 # Links to include in top navigation
 # For external links add external: true
@@ -48,16 +18,18 @@ links:
   - title: About
     url: /about/
 
-# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/New_York
-future:      true
-highlighter: pygments
-markdown:    kramdown
-
-encoding: utf-8
-
 # https://github.com/mojombo/jekyll/wiki/Permalinks
+
+# Jekyll configuration
 permalink:   /:categories/:title/
+markdown:    kramdown
+highlighter: pygments
+sass:
+  sass_dir: _sass
+  style: compressed
+gems:
+  - jekyll-sitemap
+  - jekyll-scholar
 
 kramdown:
   auto_ids: true
@@ -66,12 +38,39 @@ kramdown:
   toc_levels: 1..6
   use_coderay: false
 
-  coderay:
-    coderay_line_numbers:
-    coderay_line_numbers_start: 1
-    coderay_tab_width: 4
-    coderay_bold_every: 10
-    coderay_css: class
+
+# Site owner
+owner:
+  name: Renaud Gervais
+  avatar: bio-photo.jpg
+  bio: "Researcher, designer, programmer. I like tinkering with ideas that lie at the boundaries of different fields."
+  email: renaud.gervais@gmail.com
+  disqus-shortname:
+  twitter: RenaudGervais #username
+  facebook: #username
+  google:
+    plus: RenaudGervais-1 #username
+    analytics:
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
+  github: RenaudGervais #username
+  stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
+  linkedin: renaud-gervais/27/7b6/338 #username
+  xing: #username
+  instagram: #username
+  lastfm: NonRealResult #username
+  tumblr: #username
+  pinterest: #username
+  foursquare: #username
+  steam: #username
+  dribbble: #username
+  youtube: #username
+  soundcloud: #username
+  weibo: #username
+  flickr: #username
+  codepen: #username
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]

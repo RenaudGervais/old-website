@@ -7,9 +7,8 @@ tags: [publications,scientific,conferences,articles]
 share: false
 image:
   feature: CCoO_header.jpg
-  credit: Character is based on a Trexi Figure by Play Imaginative
-  creditlink: http://trexi.com.sg/
-share: 
+  credit: Renaud Gervais
+  creditlink: 
 ---
 
 ## 2016

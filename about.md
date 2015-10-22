@@ -6,8 +6,8 @@ tags: [about, Renaud]
 share: false
 image:
   feature: CCoO_header.jpg
-  credit: Character is based on a Trexi Figure by Play Imaginative
-  creditlink: http://trexi.com.sg/
+  credit: Renaud Gervais
+  creditlink: 
 vvvv: true
 ---
 

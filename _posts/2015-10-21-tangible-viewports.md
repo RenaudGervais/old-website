@@ -17,3 +17,6 @@ Don't you feel trapped when working on a screen? On our desks, we often have two
 We proposed to link the two working spaces using a metaphor we called *Tangible Viewports* and is a direct follow-up to the [CurSAR](/cursar-pointing-in-spatial-augmented-reality-from-2d-pointing-devices/) project.. It consists in an on-screen window where, when a physical object is held in front of it (from the point of view of the user), the cursor on screen "jumps" onto the physical object. Combined with Spatial Augmented Reality, it allowed us to connect to existing desktop applications, such as [Photoshop](http://www.adobe.com/fr/products/photoshop.html), to real objects.
 
 <iframe src="https://player.vimeo.com/video/142358002" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+### Related publications
+- {% reference Gervais2016 %}
